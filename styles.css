@@ -18,4 +18,21 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+.button {
+  background: #fff;
+  color: #1565b1;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 58px;
+  height: 60px;
+  margin: 15px 0;
+  min-width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: .3s;
+}
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2), 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
